@@ -18,7 +18,7 @@ public class HotelDatabaseApplication implements CommandLineRunner {
 	private HotelRepository hotelRepository;
 	@Override
 	public void run(String... args) throws Exception{
-		this.hotelRepository.save(new Hotel("Sarun","Kanchipuram", 987654321) );
+		this.hotelRepository.save(new Hotel("Aslam","London", 987654321) );
 		this.hotelRepository.save(new Hotel("Karan","Chennai", 817288367) );
 	
 	}
